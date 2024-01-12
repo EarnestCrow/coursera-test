@@ -1,0 +1,109 @@
+body {
+	font-size: 30px;
+	color: #363636;
+	background-color: #EDEDED;
+	font-family: 'Comic Neue', cursive;
+}
+
+h2 {
+font-weight: 700;
+	font-size: 1.4em;
+	color: #363636;
+	text-transform: uppercase;
+	margin: 0 10px;
+	line-height: 1.5;
+}
+
+
+/** Header nav **/
+
+#header-nav {
+	background-color: #d3d3d3;
+	border-radius: 0;
+	border: 0 0 15px 0;
+	border-color: black;
+}
+
+.navbar-header {
+	padding: 25px 0px;
+	position: relative;
+	float: left;
+}
+.container {
+ 	margin: 0;
+}
+
+.navbar-header h1 {
+	font-weight: 700;
+	font-size: 1.5em;
+	color: #363636;
+	text-transform: uppercase;
+	text-shadow: 1px 1px 1px #fff;
+	margin: 0 10px;
+	line-height: .75;
+}
+
+.navbar-header a:hover, .navbar-header a:focus {
+	text-decoration: none;
+}
+
+/** hamburger menu **/
+
+#nav-list {
+	margin: 0;
+	width: 100%;
+	clear: left;
+	position: relative;
+	float: right;
+}
+
+#nav-list a {
+	color: black;
+	background: white;
+	text-align: center;
+	border-bottom: 1px solid black ;
+}
+
+#nav-list a:hover {
+	background: grey;
+}
+
+#nav-list a span {
+	font-size: 1.8em;
+}
+
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+	border: 1px solid #61122f;
+}
+
+.navbar-collapse
+{
+	padding: 0;
+}
+
+.navbar-toggle {
+	margin-top: 25px;
+	content-visibility: ;
+
+}
+
+.menu-box {
+	background-color: #FFFFF5;
+	border: 2px solid black;
+	float:left;
+	margin: 20px 10px;
+	padding: 25px;
+}
+
+.menu-box h2 {
+	font-weight: 700;
+	font-size: 1.2em;
+	color: #363636;
+	text-transform: uppercase;
+	margin: 0 10px;
+	line-height: 1.5;
+}
+#large-box {
+	margin: 0 25px;
+}
